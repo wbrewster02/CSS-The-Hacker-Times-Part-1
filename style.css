@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 body {
     width: 700px;
-    box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 4px 4px 2px 1px rgba(114, 114, 117, 0.2);
     padding: 4px;
+    font-family: sans-serif ;
 }
 
 title {
@@ -10,4 +11,28 @@ title {
 }
 ul {
     list-style-type: none;
+    display: inline-block;
+    padding: 2px;
+}
+nav {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.sectionOne {
+    border: 2px solid;
+    background-color: white;
+}
+.sectionTwo {
+    border: 2px solid;
+    background-color: white;
+}
+.sectionThree {
+    border: 2px solid;
+    background-color: white;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
