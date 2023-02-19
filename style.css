@@ -10,16 +10,27 @@ body {
 title {
     text-align: center;
 }
-ul {
-    list-style-type: none;
-    display: inline-block;
+--- ul {
+    list-style: none;
     padding: 2px;
 }
 nav {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
+    
+    padding: 8px;
+    position: sticky;
+    top:0;
+    background-color: white;
+    border: 2px solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
+li {
+    display: inline-block;
+    padding: 0 5px;
+    color: #ffffff;
+  }
+---
 .sectionOne {
     border: 2px solid;
     background-color: white;
@@ -36,4 +47,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+main {
+    background-color: white;
+    border: 2px solid;
 }
